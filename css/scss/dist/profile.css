@@ -1,0 +1,66 @@
+.user-inf {
+  /* .user-inf__container */
+  /* .user-inf__img */
+  /* .user-inf__information */
+  /* .user-inf__fio */
+  /* .user-inf__header */
+  /* .user-inf__title */
+  /* .user-inf__worker-inf */
+  /* .user-inf__post */
+  /* .user-inf__list */
+}
+.user-inf__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.user-inf__img {
+  margin-right: 4rem;
+}
+.user-inf__img img {
+  width: 20rem;
+  height: 20rem;
+}
+.user-inf__information div {
+  margin-bottom: 1rem;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
+  /* .list__img */
+  /* .list__item */
+  /* .list__user */
+  /* .list__btn */
+  /* .list__price */
+  /* .list__amounce */
+}
+.list__item {
+  padding: 20px;
+  background: #e6e4e4;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list__item span {
+  margin: 0.5rem 0;
+}
+.list__item--nr {
+  background: rgba(122, 122, 122, 0.3);
+}
+.list__btn {
+  width: 100%;
+  max-width: 10rem;
+}
+.main {
+  margin-bottom: 0;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 1.5rem;
+}

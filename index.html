@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext">
+    <link rel="stylesheet" href="./css/scss/dist/style.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="header__container">
+                    <ul class="header__intro intro">
+                        <li> <img class="intro__img" src="images/logo.svg" alt=""> </li>
+                        <li> <span class="intro__logo">#</span></li>
+                    </ul>
+                    <nav class="header__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"> <a class="nav__link" href="#">Профиль</a> </li>
+                            <li class="nav__item"><a class="nav__link" href="#">Список поставщиков</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">#</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__logs">
+                        <ul class="header__items">
+                            <li class="header__item"><a class="header__sign btn btn--blue" href="sigin.html">Exit</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__icon"><span></span></div>
+                </div>
+            </header>
+        </div>
+        <main class="main">
+            <div class="container">
+                <!--============ ПЕРВОЕ ОКНО ==============-->
+                <div class="user-inf window">
+                    <button>Редактировать</button>
+                    <div class="user-inf__container">
+                        <div class="user-inf__img"><img src="./images/img-plug.png" alt=""></div>
+                        <div class="user-inf__information">
+                            <div class="user-inf__information-container">
+                                <span class="user-inf__fio">Фамилия Имя Отчество</span>
+                            </div>
+                            <div class="user-inf__information-container">
+                                <div class="user-inf__email">sssss@gmail.com</div>
+                            </div>
+                            <div class="user-inf__information-container">
+                                <span class="user-inf__post">Срок работы: 0 лет</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="/" class="form" method="post">
+                        <div class="cabinet cabinet--mb">
+                            <div class="cabinet__form">
+                                <div class="form__group">
+                                    <label for="" class="form__id"><input type="text"
+                                            class="form__control form__control--user" placeholder="Username"></label>
+                                    <span class="form__line"></span>
+                                </div>
+                                <div class="form__group">
+                                    <label for="" class="form__id"> <input type="password"
+                                            class="form__control form__control--password"
+                                            placeholder="Password"></label>
+                                    <span class="form__line"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__group">
+                            <button class="log__btn btn btn--blue" type="submit">Log In</button>
+                        </div>
+                    </form>
+                </div>
+                <!--============ ПЕРВОЕ ОКНО ==============-->
+
+                <!--============ ВТОРОЕ ОКНО ==============-->
+                <div class="base__user-inf user-inf window window">
+                    <!--============ГОЛОВА ОКНА ==============-->
+                    <div class="user-inf__header">
+                        <div class="user-inf__title page-title">Товары пользователя</div>
+                    </div>
+                    <!--============ГОЛОВА ОКНА ==============-->
+                    <div class="user-inf__list ">
+                        <ul class="list">
+                            <li class="list__item">
+                                <div class="list__img"><img src="./images/img-plug.png" alt=""></div>
+                                <span class="list__name">Название</span>
+                                <span class="list__price">Цена: 5000 руб.</span>
+                                <span class="list__amounce">Количество: 123 шт.</span>
+                                <div class="btn-container">
+                                    <button class="list__btn btn btn--red">Delete</button>
+                                    <button class="list__btn btn btn--blue btn--edit">Edit</button>
+                                </div>
+                            </li>
+                            <li class="list__item">
+                                <div class="list__img"><img src="./images/img-plug.png" alt=""></div>
+                                <span class="list__name">Название</span>
+                                <span class="list__price">Цена: 5000 руб.</span>
+                                <span class="list__amounce">Количество: 123 шт.</span>
+                                <button class="list__btn btn btn--red">Delete</button>
+                            </li>
+                            <li class="list__item">
+                                <div class="list__img"><img src="./images/img-plug.png" alt=""></div>
+                                <span class="list__name">Название</span>
+                                <span class="list__price">Цена: 5000 руб.</span>
+                                <span class="list__amounce">Количество: 123 шт.</span>
+                                <button class="list__btn btn btn--red">Delete</button>
+                            </li>
+                            <li class="list__item">
+                                <div class="list__img"><img src="./images/img-plug.png" alt=""></div>
+                                <span class="list__name">Название</span>
+                                <span class="list__price">Цена: 5000 руб.</span>
+                                <span class="list__amounce">Количество: 123 шт.</span>
+                                <button class="list__btn btn btn--red">Delete</button>
+                            </li>
+                            <li class="list__item">
+                                <div class="list__img"><img src="./images/img-plug.png" alt=""></div>
+                                <span class="list__name">Название</span>
+                                <span class="list__price">Цена: 5000 руб.</span>
+                                <span class="list__amounce">Количество: 123 шт.</span>
+                                <button class="list__btn btn btn--red">Delete</button>
+                            </li>
+                            <li class="list__item">
+                                <div class="list__img"><img src="./images/img-plug.png" alt=""></div>
+                                <span class="list__name">Название</span>
+                                <span class="list__price">Цена: 5000 руб.</span>
+                                <span class="list__amounce">Количество: 123 шт.</span>
+                                <button class="list__btn btn btn--red">Delete</button>
+                            </li>
+                            <li class="list__item list__item--nr">
+
+
+                                <button class="list__btn btn">
+                                    <div class="list__img"><img src="./images/img-plug.png" alt=""></div>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--============ ВТОРОЕ ОКНО ==============-->
+
+                </div>
+            </div>
+
+        </main>
+        <div class="container">
+            <footer class="footer">
+                <div class="footer__container">
+                    <ul class="footer__intro intro">
+                        <div class="intro__top">
+                            <li> <img class="intro__img" src="images/logo.svg" alt=""> </li>
+                            <li> <a class="intro__logo" href="index.html">#</a></li>
+                        </div>
+                        <a href="mailto:info@marico.com" class="intro__mail">#.com</a>
+                    </ul>
+                    <nav class="footer__nav nav">
+                        <ul class="nav">
+                            <li class="nav__item"><a class="nav__link" href="#">#</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">#</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">#</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#">#</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
